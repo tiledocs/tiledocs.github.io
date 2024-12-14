@@ -1,2 +1,1 @@
-# tiledocs.github.io
-TileDocs Organization Website
+# TileDocs Organization Website
