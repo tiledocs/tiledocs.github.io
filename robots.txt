@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://hub.tiledocs.com/sitemap_index.xml
