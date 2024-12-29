@@ -1,0 +1,6 @@
+{
+    "/": {
+        "title": "Top Collection",
+        "text": "Discover and Explore Documentation in One Place A curated platform for well-structured documentation, making information easy to access and share. How to Create and Publish Beautiful Documentation on GitHub Pages In this guide, you'll learn how to create a documentation website for your project without writing any code, using frameworks, installing software, or setting up anything on your computer.  This space is reserved for an upcoming documentation website. This space is reserved for an upcoming documentation website. This space is reserved for an upcoming documentation website. This space is reserved for an upcoming documentation website. This space is reserved for an upcoming documentation website."
+    }
+}
