@@ -4,13 +4,13 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>
-        Not Found - [Company Name]
+        Not Found - TileDocs Hub
     </title>
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content=""/>
-    <link rel="icon" type="image/svg+xml" href="https://hub.tiledocs.com"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="https://hub.tiledocs.com">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://hub.tiledocs.com">    
+    <link rel="icon" type="image/svg+xml" href="https://hub.tiledocs.com/_images/seo/favicon.svg"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://hub.tiledocs.com/_images/seo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://hub.tiledocs.com/_images/seo/favicon-16x16.png">    
         
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
@@ -30,7 +30,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'system';
+            const savedTheme = localStorage.getItem('theme') || 'light';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -38,11 +38,7 @@
         document.documentElement.classList.add('theme-' + theme);
     </script>
         
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-<meta property="og:image" content="https://your-domain.com/og-image.png" />
-<meta name="twitter:image" content="https://your-domain.com/og-image.png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@your-twitter-handler" />
+        
 
     
 </head>
@@ -59,7 +55,7 @@
                             size="medium" 
                             href="/"
                         >
-                            Documentation
+                            Collections
                         </sl-button>
                          
                 
@@ -75,16 +71,16 @@
                 <div class="logo">
                     
                         <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
-  <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
 </svg>
 
                         </div>
                     
                     <div>
                         
-                            <span class="line-clamp-1">[Company Name]</span>
+                            <a href="https://hub.tiledocs.com"><span class="line-clamp-1">TileDocs Hub</span></a>
                         
                     </div>
                 </div>
@@ -97,7 +93,7 @@
                                     size="medium" 
                                     href="/"
                                 >
-                                    Documentation
+                                    Collections
                                 </sl-button>
                                                     
                         
@@ -148,8 +144,24 @@
         <footer>
             <div class="stack__column stack__gap-4 stack__center">
                 
+                    <div class="stack__row stack__gap-7 stack__center">
+                        
+                            <div class="font-x-small">
+                                <a href="https://tiledocs.com" target="_blank">TileDocs Editor</a>
+                            </div>
+                        
+                            <div class="font-x-small">
+                                <a href="https://github.com/orgs/tiledocs/discussions" target="_blank">Discuss</a>
+                            </div>
+                        
+                    </div>
+                
                 <div class="stack__row stack__center">
-                    <span><span>Year &copy; Company Name</span></span>
+                    <span><span>2024 &copy; Made by 
+   <a href="https://x.com/alex_pustovalov" target="_blank">
+      Alex Pustovalov
+   </a>
+</span></span>
                 </div>
             </div>
         </footer>
@@ -183,8 +195,8 @@
     import {preInitTree} from 'https://hub.tiledocs.com/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('system');
-    await initSearch('https://hub.tiledocs.com', '1735478303751');
+    await initTheme('light');
+    await initSearch('https://hub.tiledocs.com', '1735479332925');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
